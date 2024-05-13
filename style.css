@@ -1,7 +1,96 @@
-li {
+* {
+font-family: quicksand, serif;
+}
+
+ul li {
     text-align: center;
     font-size: 20px;
     color: blue;
     list-style: none;
+    
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    color: tomato;
+    
+}
+
+ol li {
+    font-size: 20px;
+    color: blue;
+    list-style: lower-roman;
+    /* font-family: poppins, serif; */
+}
+
+a {
+    text-decoration: none;
+    font-family: quicksand, serif;
+    color: brown;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: tomato;
+    font-size: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.olamide {
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: poppins, serif;
+    
+}
+
+.olamide:hover {
+    text-decoration: dotted;
+    font-size: 30px;
+    color: blueviolet;
+    transition: 0.2 ease-in;
+    text-decoration: underline;
+}
+
+ img {
+    width: 30%;
+ }
+
+ #abefe{
+    width: 50%;
+ }
+
+ h3, p {
+    color: red;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 30px 40px 50px 60px;
+    margin: 50px;
+    align-items: center;
+ }
+
+ .one, .two, .three {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-bottom: 10px;
+ }
+
+ .one {
+    background-color: green;
+ }
+
+ .two {
+    background-color: red;
+    visibility: hidden;
+ }
+
+ .three {
+    background-color: yellow;
+    border: 0px;
+ }
